@@ -1,0 +1,52 @@
+.navbar{
+    display: flex;
+    width: 1024px;
+    padding: 32px 0px 8px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .my-name{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.navbar .my-name h4{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.navbar .links ul{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.navbar .links ul>li{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    display: flex;
+
+}
+.link-name{
+    color:  #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.hashtag{
+    color:  #C778DD;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
